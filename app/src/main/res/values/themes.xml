@@ -1,0 +1,22 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ChitChatApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!--primary color -->
+        <item name="colorPrimary">@color/my_primary</item>
+        <item name="colorPrimaryVariant">@color/my_primary</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+           <!--secondary color-->
+        <item name="colorSecondary">@color/my_secondary</item>
+        <item name="colorSecondaryVariant">@color/my_secondary</item>
+        <item name="colorOnSecondary">@color/black</item>
+
+        <!-- status bar color  -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+
+        <!-- Customize your theme here   -->
+        <item name="android:windowBackground">@color/off_white</item>
+    </style>
+
+    <style name="Theme.ChitChatApp" parent="Base.Theme.ChitChatApp" />
+</resources>
